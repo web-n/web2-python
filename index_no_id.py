@@ -1,9 +1,7 @@
 #!/usr/local/bin/python3
 print("Content-Type: text/html")
 print()
-import cgi
-form = cgi.FieldStorage()
-pageId = form["id"].value
+pageId = 'Welcome'
 print('''<!doctype html>
 <html>
 <head>
